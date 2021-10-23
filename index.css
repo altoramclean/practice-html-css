@@ -74,7 +74,7 @@ h1,h2{
     text-align: center;
 }
 h2{
-    margin-left: 5%;
+   text-align: center;
 }
 #contact h2{
 margin-left:3%;
@@ -109,5 +109,32 @@ address{
     text-decoration: none;
 }
 button{
+background-color:saddlebrown;
+border:none;
+color:white;
+border-radius: 12px;
+font-size: 20px;
+padding: 12px 28px;
+margin-bottom: 30%;
+margin-top: 10%;
+transition-duration: 0.5s;
+}
+button:hover{
+    background-color: sandybrown;
+    color:black;
+}
 
+/*about page styles*/
+.top img{
+    height:70vh;
+    width:50%;
+    margin-left: 25%;
+    padding-top:2%;
+    padding-bottom:1%;
+}
+/*contact page*/
+.left img{
+    height:80vh;
+    width:50%;
+    margin-left:25%;
 }
